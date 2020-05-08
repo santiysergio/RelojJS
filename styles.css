@@ -1,0 +1,34 @@
+body{
+    /*Insertar ruta de la imágen*/
+    background-color: black;
+    /*background-size: 100%; es lo mismo que cover*/
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0.4;
+}
+.horaClass{
+    display: flex;
+    justify-content: center;
+    /*1em = 16px (definidos por el navegador). Entonces 20em = 16*20 = 320px  */
+    font-size: 20em;
+}
+
+.diames{
+    text-align: center;
+    /*1em = 16px (definidos por el navegador). Entonces 5em = 16*5 = 80px  */
+    font-size: 5em;
+}
+
+span{
+    color: orange;
+    
+}
